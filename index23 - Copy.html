@@ -1,0 +1,79 @@
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>SkillTube</title>
+    <script src="https://cdn.tailwindcss.com"></script>
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css">
+</head>
+<body class="bg-gray-100 text-gray-900">
+    <header class="bg-blue-600 text-white p-4">
+        <div class="container mx-auto flex justify-between items-center">
+            <h1 class="text-2xl font-bold">SkillTube</h1>
+            <nav>
+                <ul class="flex space-x-4">
+                    <li><a href="#" class="hover:underline">Home</a></li>
+                    <li><a href="#" class="hover:underline">Skills</a></li>
+                    <li><a href="#" class="hover:underline">Job Paths</a></li>
+                    <li><a href="#" class="hover:underline">Playlists</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container mx-auto p-4">
+        <div class="grid grid-cols-1 md:grid-cols-3 gap-4">
+            <!-- Sidebar -->
+            <aside class="bg-white p-4 rounded shadow-md">
+                <h2 class="text-xl font-bold mb-4">Categories</h2>
+                <ul class="space-y-2">
+                    <li><a href="#" class="block p-2 bg-blue-100 rounded hover:bg-blue-200">Web Development</a></li>
+                    <li><a href="#" class="block p-2 bg-blue-100 rounded hover:bg-blue-200">Data Science</a></li>
+                    <li><a href="#" class="block p-2 bg-blue-100 rounded hover:bg-blue-200">Graphic Design</a></li>
+                    <li><a href="#" class="block p-2 bg-blue-100 rounded hover:bg-blue-200">Digital Marketing</a></li>
+                </ul>
+            </aside>
+
+            <!-- Main Content -->
+            <section class="col-span-2">
+                <div class="bg-white p-4 rounded shadow-md mb-4">
+                    <h2 class="text-xl font-bold mb-2">Featured Video</h2>
+                    <div class="aspect-w-16 aspect-h-9">
+                        <iframe class="w-full h-full" width="560" height="315" src="https://www.youtube.com/embed/-ETQ97mXXF0?si=91DzohmY_xOWas6T" title="YouTube video player" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
+                    </div>
+                </div>
+
+                <div class="bg-white p-4 rounded shadow-md">
+                    <h2 class="text-xl font-bold mb-2">Playlists</h2>
+                    <div class="space-y-4">
+                        <div class="p-4 bg-gray-100 rounded">
+                            <h3 class="text-lg font-bold">Web Development</h3>
+                            <p class="text-gray-700">Learn the basics of web development, including HTML, CSS, and JavaScript.</p>
+                            <ul class="mt-2 space-y-2">
+                                <li><a href="#" class="block p-2 bg-blue-100 rounded hover:bg-blue-200">HTML Basics</a></li>
+                                <li><a href="#" class="block p-2 bg-blue-100 rounded hover:bg-blue-200">CSS Fundamentals</a></li>
+                                <li><a href="#" class="block p-2 bg-blue-100 rounded hover:bg-blue-200">JavaScript Essentials</a></li>
+                            </ul>
+                        </div>
+                        <div class="p-4 bg-gray-100 rounded">
+                            <h3 class="text-lg font-bold">Data Science</h3>
+                            <p class="text-gray-700">Master data science with tutorials on Python, machine learning, and data visualization.</p>
+                            <ul class="mt-2 space-y-2">
+                                <li><a href="#" class="block p-2 bg-blue-100 rounded hover:bg-blue-200">Python for Data Science</a></li>
+                                <li><a href="#" class="block p-2 bg-blue-100 rounded hover:bg-blue-200">Machine Learning Basics</a></li>
+                                <li><a href="#" class="block p-2 bg-blue-100 rounded hover:bg-blue-200">Data Visualization Techniques</a></li>
+                            </ul>
+                        </div>
+                    </div>
+                </div>
+            </section>
+        </div>
+    </main>
+
+    <footer class="bg-blue-600 text-white p-4 mt-4">
+        <div class="container mx-auto text-center">
+            <p>&copy; 2023 SkillTube. All rights reserved.</p>
+        </div>
+    </footer>
+</body>
+</html>
